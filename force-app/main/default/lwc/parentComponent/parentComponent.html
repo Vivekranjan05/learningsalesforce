@@ -1,0 +1,7 @@
+<template>
+    <c-child-to-parent ondatafromchild={handleChildData}></c-child-to-parent>
+
+    <p>Received from child: {receivedData}</p>
+
+    <lightning-button label="Send to Apex" onclick={sendToServer}></lightning-button>
+</template>
